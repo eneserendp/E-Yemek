@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-Yemek: E-Ticaret Yemek Sitesi
 
-## Getting Started
+## Proje Hakkında
+E-Yemek, kullanıcıların lezzetli yemeklerini sepetlerine ekleyerek kolayca alışveriş yapabildiği bir e-ticaret platformudur. Bu proje, kullanıcı dostu arayüzü ve hızlı performansıyla ön plana çıkmaktadır.
 
-First, run the development server:
+## Kullanılan Teknolojiler
+- **Strapi:** İçerik yönetim sistemi olarak kullanıldı.
+- **Next.js:** React tabanlı framework ile geliştirilmiştir.
+- **Node.js:** Sunucu tarafında verimlilik sağlamak için kullanıldı.
+- **TailwindCSS:** Modern ve esnek stil çözümleri ile şık bir arayüz oluşturuldu.
+## Kullanım
+Projeye erişim sağladıktan sonra tarayıcınızda http://localhost:3000 adresine gidin.
+Kullanıcılar, site üzerinde yemekleri gezinebilir, sepete ekleyebilir ve alışverişlerini tamamlayabilirler.
+## Katkıda Bulunma
+Bu projeye katkıda bulunmak isterseniz, pull request göndererek veya sorularınızı açarak katkıda bulunabilirsiniz.
 
+## Kurulum
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+
+1. **Depoyu Klonlayın:**
+   ```bash
+   git clone https://github.com/kullanici_adi/E-Yemek.git
+2.**Proje Klasörüne Geçin ve Gerekli Paketleri Yükleyin:**
 ```bash
+ git clone https://github.com/kullanici_adi/E-Yemek.git
+npm install
+cd cms-strapi-shopping
+npm run develop
+cd ../nextjs-shopping
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+   
+   
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
